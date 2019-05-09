@@ -19,7 +19,7 @@ SecretsCache can resolve this as follows:
 
 ```elixir
 SecretsCache.get_config(:my_app, "my_secret")
-[database: [username: "user", password: "heh", best_yuru: :yui]]
+[database: [username: "user", password: "heh"], best_yuru: :yui]
 ```
 
 ## Installation
