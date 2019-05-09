@@ -3,6 +3,8 @@
 A cache and config merger for AWS Secrets. Give it a secret name, and an OTP application
 name and it'll resolve the resultant configuration.
 
+Set your AWS credentials as specified by [ex\_aws](https://github.com/ex-aws/ex_aws)
+
 For example, let's say you've configured `:my_app` as such
 
 ```elixir
